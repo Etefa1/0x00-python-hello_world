@@ -3,7 +3,7 @@
 # Brennan D Baraban <375@holbertonschool.com>
 
 
-def roman_t12o_int(roman_string):
+def roman_to_int(roman_string):
     """Converts a roman numeral to an integer."""
     if (not isinstance(roman_string, str) or
             roman_string is None):
